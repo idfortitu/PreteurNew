@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RadioButton
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:text="Preter"
+        android:id="@+id/radioButton"
+        android:layout_weight="0.25"
+        android:textSize="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nom de la personne"
+        android:id="@+id/textviewnom"
+        android:layout_weight="0.03" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tnompersonne"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03" />
+
+    <RadioButton
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:text="Disponible"
+        android:id="@+id/radioButton2"
+        android:layout_weight="0.25"
+        android:textSize="32dp" />
+
+    <Button
+        android:layout_width="138dp"
+        android:layout_height="62dp"
+        android:text="Accepter"
+        android:id="@+id/bok"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Liste des objets</string>
+    <string name="action_settings">A propos de l application</string>
+    <string name="app_nameMain">Liste des objets</string>
+    <string name="app_activityadd">Ajouter un objet</string>
+    <string name="app_activitypret">Gestion de prêt</string>
+    <string name="app_activitycheck">Gestion de l objet</string>
+</resources>
